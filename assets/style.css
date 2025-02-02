@@ -1,0 +1,56 @@
+*{
+    font-family:'Roboto';
+}
+
+
+
+#page{
+    background-color: rgb(255, 255, 255);
+}
+
+#github-logo{
+    height: 100px;
+    width: auto;
+    margin-left: 50px;
+}
+
+.navbar-nav{
+    align-items: center;
+}
+
+.navbar{
+    height:"1000px";
+    
+}
+
+.align-center{
+    display: flex;
+    align-items: center;
+}
+
+.dashboard-row{
+    height: 536px;
+}
+
+.figure-card{
+    height: 520px;
+}
+
+#attribution{
+    text-align: right;
+}
+
+#attribution > p{
+    margin: 0;
+}
+
+#about-modal{
+    max-height: 90%;
+    overflow-y: scroll;
+}
+
+@media (max-width: 320px) {
+    h1 {
+      font-size: 1.2rem;
+    }
+  }
